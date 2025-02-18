@@ -43,6 +43,11 @@ from datamodel where event_type = 'process_start'
 | filter process_name == 'example_malware.exe'
 | stats count by process_name, host, user
 ```
+
+## Licença
+
+Este repositório é licenciado sob a MIT License - consulte o arquivo LICENSE para mais detalhes.
+
 ### Nota
 
 Este repositório não é oficialmente mantido pela Palo Alto Networks, mas visa fornecer uma plataforma de colaboração para engenheiros e analistas que usam o Cortex XDR.
